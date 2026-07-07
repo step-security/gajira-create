@@ -1,8 +1,6 @@
 [![StepSecurity Maintained Action](https://raw.githubusercontent.com/step-security/maintained-actions-assets/main/assets/maintained-action-banner.png)](https://docs.stepsecurity.io/actions/stepsecurity-maintained-actions)
 
 ---------
-⚠️ This repository is no longer maintained and all Gajira actions have been deprecated.
----------
 
 # Jira Create
 Create new issue
