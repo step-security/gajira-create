@@ -79,7 +79,12 @@ module.exports = class {
   }
 
   transformFields (fieldsString) {
-    const fields = JSON.parse(fieldsString)
+    let fields
+    try {
+      fields = JSON.parse(fieldsString)
+    } catch {
+      throw new Error('Fields parameter must be valid JSON')
+    }
 
     return Object.keys(fields).map(fieldKey => ({
       key: fieldKey,
