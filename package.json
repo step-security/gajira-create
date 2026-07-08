@@ -1,5 +1,5 @@
 {
-  "name": "@atlassian/gajira-create",
+  "name": "@step-security/gajira-create",
   "version": "3.0.1",
   "description": "Creates a Jira issue within Github Actions",
   "main": "index.js",

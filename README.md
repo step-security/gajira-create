@@ -9,7 +9,7 @@ Create new issue
 
 ## Usage
 
-> ##### Note: this action requires [Jira Login Action](https://github.com/marketplace/actions/jira-login)
+> ##### Note: this action requires [Jira Login Action](https://github.com/atlassian/gajira-login)
 
 ```yaml
 - name: Create
